@@ -1,15 +1,15 @@
 ### Type shortcuts
 
-#### `RStyleRef`
+#### RStyleRef
 A React `RStyle` reference, a shortcut for `React.RefObject<RStyle>`
 
-#### `RStyleLike`
+#### RStyleLike
 A style object, a shortcut for `RStyleRef | RStyle | StyleLike`
 
 ### Shortcuts for creating `<RStyle>` references
 
-#### `useRStyle()`
+#### useRStyle()
 Create a memoized style reference, a shortcut for `React.useRef() as RStyleRef`
 
-#### `createRStyle()`
+#### createRStyle()
 Create a style reference, a shortcut for `React.createRef() as RStyleRef`
